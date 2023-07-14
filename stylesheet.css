@@ -8,6 +8,7 @@ body {
   font-size: 22px; /* Increased text to enable scrolling */
   line-height: 35px;
   padding: 10%;
+  text-align: justify;
 }
 
 .sidenav {
@@ -34,6 +35,7 @@ body {
   width: 100%;
   padding-top: 15%;
   padding-bottom: 15%;
+  text-align: justify;
 }
 
 .navblock_text a {
@@ -43,6 +45,7 @@ body {
   font-size: 25px;
   color: #818181;
   display: block;
+  text-align: justify;
 }
 
 .navblock_text a:hover {
