@@ -17,7 +17,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  box-shadow: 2px 2px 20px #960c46;
+  box-shadow: 2px 2px 20px #350475;
   overflow-x: hidden;
   
 }
@@ -41,12 +41,12 @@ body {
   text-decoration: none;
   text-align: center;
   font-size: 25px;
-  color: #530101;
+  color: #350475;
   display: block;
 }
 
 .navblock_text a:hover {
-  color: #010d13;
+  color: #350475;
 }
 
 .footer {
