@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Style page content */
@@ -68,15 +68,15 @@ body {
 }
 
 .research_accent {
-  color:  #E74C3C;
+  color:  #db3e2d;
 }
 
 .blog_accent {
-  color:  #8E44AD;
+  color:  #8938ac;
 }
 
 a {
-  color: #3498DB;
+  color: #115d8f;
   text-decoration: none;
 }
 
