@@ -1,10 +1,10 @@
 body {
   font-family: "Lato", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-image: url('./img/ai.jpg');
+  /* background-image: url('./img/ai.jpg');
   background-size: cover; /* Resize the background image to cover the entire container */
   /*background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Do not repeat the background image */
-  filter: blur(10px);
+  /*background-repeat: no-repeat; /* Do not repeat the background image */
+  /*filter: blur(10px); */
   /* z-index: -1; */
 }
 
