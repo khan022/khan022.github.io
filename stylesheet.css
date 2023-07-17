@@ -6,6 +6,8 @@ body {
   /*background-repeat: no-repeat; /* Do not repeat the background image */
   /*filter: blur(10px); */
   /* z-index: -1; */
+  background-color: black;
+  color: white;
 }
 
 /* Style page content */
