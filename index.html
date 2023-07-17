@@ -27,8 +27,26 @@
 </div>
 
 <div class="main">
-    <div >
-        <img src="./img/pro_pic/pro_pic2.jpg" alt="Shafkat Khan Siam" class="about_photo">
+    <div onload="pickimg()">
+        
+        <img src="" alt="Shafkat Khan Siam" class="about_photo">
+        
+        <script>
+            function pickimg() {
+              var imagenumber = 5;
+              var randomnumber = Math.random();
+              var rand1 = Math.round((imagenumber - 1) * randomnumber) + 1;
+              images = new Array;
+              images[1] = "/img/pro_pic/pro_pic1.JPG";
+              images[2] = "/img/pro_pic/pro_pic2.jpg";
+              images[3] = "/img/pro_pic/pro_pic3.jpg";
+              images[4] = "/img/pro_pic/pro_pic4.jpg";
+              images[5] = "/img/pro_pic/pro_pic5.jpeg";
+              var image = images[rand1];
+              document.getElementById("randimg").src = image;
+            }
+        </script>
+        
     </div>
 
     <div class="about_text">
